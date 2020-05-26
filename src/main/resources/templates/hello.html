@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<h1>chỉ những người đăng nhập mới đc truy cập vào trang web này</h1>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign out">
+</form>
+</body>
+</html>
